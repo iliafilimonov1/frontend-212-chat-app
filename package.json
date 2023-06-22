@@ -1,0 +1,19 @@
+{
+  "name": "chat-app",
+  "private": true,
+  "version": "0.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
